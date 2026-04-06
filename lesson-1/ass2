@@ -1,0 +1,23 @@
+Content used - Credit Risk Dataset (Kaggle)
+
+1. Personal observations :
+
+    - gave the models a chunky dataset from kaggle 
+    - the question was -> "Based on this data, what type of members are at higher risk?"
+
+2. Claude Sonnet — ⭐ Best Response
+    - Gave the most precise and structured breakdown. It actually read through the rows carefully and identified patterns — things like members with longer loan tenure, higher debt-to-income ratios, and lower credit grades being consistently flagged as higher risk. It didn't just summarize, it reasoned through why those features correlated with risk and even pointed out which columns were most predictive. Felt less like a chatbot answer and more like an actual data analyst walking you through it.
+
+    - GPT-4o — Good but Bloated
+    The answer was correct and covered the right patterns, but it came with a lot of unnecessary padding — restating the question, bullet pointing things that didn't need to be bulleted, adding a disclaimer section at the end about "limitations of this analysis" that nobody asked for. If you just needed the insight, you'd have to scroll past a lot of fluff to get to it. Content-wise solid, presentation-wise exhausting.
+
+    - Gemini Flash — Fast but Shallow
+     Responded the quickest by far, but the answer showed it. It gave a very surface-level read — basically just said "members with high loan amounts and low income are at risk" which is technically true but also just... obvious from a glance. Missed the more nuanced patterns the other models caught. For a quick gut-check it's fine, for anything you'd actually act on it's not enough.
+
+    - DeepSeek R1:7b (Local) — Gets the job done, barely
+     Gave a response but it was all over the place — repeated itself a couple times, the structure was messy, and it took longer than the cloud models despite running locally. The core answer was in there somewhere if you dug for it, but you'd have to clean it up yourself before it's usable.
+
+3. Takeaway
+    For anything involving real data analysis inside a large context, Claude is noticeably ahead on precision. GPT gets there too but wastes your time getting there. Gemini is fine if speed matters more than depth. DeepSeek is a last resort if you're offline and need something.
+
+
