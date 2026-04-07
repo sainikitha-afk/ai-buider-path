@@ -1,0 +1,11 @@
+Finance Department Policies
+
+Reimbursement process:
+- Submit receipts via portal
+- Approval within 5 working days
+
+Payroll:
+- Processed on last working day of month
+
+Budget reports:
+- Available on internal finance dashboard

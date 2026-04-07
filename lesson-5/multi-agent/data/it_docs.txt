@@ -1,0 +1,16 @@
+IT Support Guidelines
+
+To set up VPN:
+- Install VPN client
+- Enter company credentials
+- Connect to secure network
+
+Approved software:
+- VS Code
+- Docker
+- Python
+- Git
+
+Laptop requests:
+- Submit request via IT portal
+- Approval required from manager
