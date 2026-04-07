@@ -1,0 +1,26 @@
+Internal Research Notes — Presidio Materials AI Project
+
+Q1 Research Findings:
+- Physics-informed models outperform traditional ML in small datasets
+- Orowan-based features significantly improve prediction accuracy
+- Rank-based alignment improves microstructure-composition mapping
+
+Key Insights:
+- Strength increases with decreasing inter-particle spacing
+- Trade-off observed between strength and ductility
+- Microstructure features are more predictive than composition alone
+
+Project Direction:
+- Focus on hybrid models combining physics and ML
+- Improve interpretability of learned features
+- Use regime-based validation instead of sample-level validation
+
+Challenges:
+- Data scarcity
+- Noise in industrial datasets
+- Lack of direct mapping between images and batches
+
+Future Work:
+- Incorporate deep learning for image feature extraction
+- Expand dataset with synthetic data
+- Improve robustness of predictions

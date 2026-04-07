@@ -1,0 +1,37 @@
+AI-Driven Prediction of Mechanical Properties in A356 Aluminum Alloys
+
+Mechanical properties such as Yield Strength (YS), Ultimate Tensile Strength (UTS), Hardness, and Elongation are influenced by composition, microstructure, and physical mechanisms.
+
+Traditional experimental methods are expensive and time-consuming, requiring extensive testing such as tensile and hardness tests.
+
+The core challenge lies in nonlinear relationships between:
+- Composition (Si, Mg, Fe)
+- Microstructure (particle size, distribution)
+- Mechanical properties
+
+Datasets are small (~100 samples) and noisy, making machine learning difficult.
+
+Microstructure plays a key role, especially silicon particle morphology:
+- Area fraction
+- Particle count
+- Average size
+
+These influence strengthening mechanisms such as dislocation obstruction and crack initiation.
+
+The Orowan mechanism explains strengthening:
+- Smaller particle spacing increases strength
+- Strength is inversely proportional to spacing
+
+Standard ML models fail due to:
+- Small data
+- Noise
+- Weak correlations
+
+Physics-informed approaches are required to:
+- Improve generalization
+- Maintain physical consistency
+- Reduce overfitting
+
+Physics-Informed Neural Networks (PINNs) are used to incorporate domain knowledge into learning.
+
+Validation must focus on trends across regimes rather than individual samples.
